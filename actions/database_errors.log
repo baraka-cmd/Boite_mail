@@ -1,0 +1,1 @@
+[2026-01-12 13:38:17] Database Connection Error: SQLSTATE[HY000] [2006] MySQL server has gone away (Code: 2006) in C:\xampp\htdocs\BoiteMail\Boite-mail\actions\database.php on line 53

@@ -1,0 +1,177 @@
+*{
+    font-family: 'Times New Roman';
+    
+}
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.loginForm, .signupForm{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    width: 600px;
+    margin-top: 150px;
+    padding: 20px;
+    box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+    margin-left: 400px;
+    
+}
+.loginForm input{
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    outline: 0;
+    width: 300px;
+    font-size: 15px;
+
+    align-items: center;
+    
+}
+.loginForm button{
+    width: 200px;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 20px;
+    color: blue;
+    background-color: bisque;
+    border: none;
+    margin-left: 180px;
+    transition: 0.5s ease-out;
+}
+
+.loginForm button:hover{
+    background-color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border: blue 1px solid;
+}
+
+.loginForm a{
+    text-decoration: none;
+    padding: 10px;
+  
+}
+
+
+.loginForm div{
+    margin: 20px;
+    align-items: center;
+}
+
+.errorMsg{
+    color: red;
+    font-weight: bold;
+}
+
+.succesMsg{
+    color: green;
+    font-weight: bold;
+}
+
+
+.navbar .lien{
+    padding: 15px 40px;
+    background-color: rgb(234, 241, 239);
+}
+.navbar .lien ul{
+    display: flex;
+    gap: 8rem;
+
+}
+.navbar .lien ul li{
+    text-decoration: none;
+    color: tan;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    list-style-type: none;
+    cursor: pointer;
+    
+}
+.navbar .lien ul li a{
+    text-decoration: none;
+    color: rgb(58, 100, 179);
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 7px;
+    transition: 0.5s ease-out;
+}
+
+.navbar .lien ul li a:hover{
+    background-color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border: blue 1px solid;
+}
+
+
+
+
+.sendForm{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    width: 600px;
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+    margin-left: 400px;
+}
+
+.sendForm input, textarea{
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    outline: 0;
+    width: 300px;
+    font-size: 15px;
+
+    align-items: center;
+    
+}
+
+.sendForm textarea{
+    width: 500px;
+    height: 200px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.sendForm button{
+    width: 200px;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 20px;
+    color: blue;
+    background-color: bisque;
+    border: none;
+    margin-left: 180px;
+    transition: 0.5s ease-out;
+}
+
+.sendForm button:hover{
+    background-color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border: blue 1px solid;
+}
+
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px 50px;
+    font-size: 20px;
+}
